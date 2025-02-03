@@ -65,7 +65,7 @@ license agreement from NVIDIA CORPORATION is strictly prohibited.
 
   <!-- 3D LIDAR -->
   <xacro:pandar_xt32_lidar name="front" parent="base_link">
-    <origin xyz="-0.231700 0.0 0.526300" rpy="0.0 0.0 0.0"/>
+    <origin xyz="-0.231700 0.0 0.526300" rpy="0.0 0.0 ${M_PI/2}"/>
   </xacro:pandar_xt32_lidar>
 
   <!-- 2D LIDARs -->
